@@ -1,0 +1,11 @@
+The front-end is the parts of a webpage that a visitor can interact with and see.
+Composed of:
+- JavaScript
+- CSS
+- HTML
+- Other static assets, such as images or videos. 
+
+A client in web development may refer to the web browser.
+In other circumstances, a client might be another application, a mobile device, or even a “smart” appliance!
+
+The back-end consists of all the behind-the-scenes processes and data that make a website function and send resources to clients.
