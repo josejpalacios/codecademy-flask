@@ -1,0 +1,9 @@
+In order to deliver the front-end of a website or web application to a user, a lot needs to happen behind the scenes on the back-end.
+* The front-end consists of HTML, CSS, JavaScript, and static assets sent to a client, like a web browser.
+* A web server is a process running on a computer that listens for incoming requests for information over the internet and sends back responses.
+* The back-end consist of storing, accessing, and manipulating data of a web application’s.
+* Data is stored in databases which can be relational databases or NoSQL databases.
+* The server-side of a web application handles important tasks such as authorization and authentication.
+* The back-end of web application often has a web API which is a way of interacting with an application’s data through HTTP requests and responses.
+* Stack refers to the technologies used to build the front-end and back-end of a web application.
+* Many different languages and frameworks can be used to build a robust back-end.
