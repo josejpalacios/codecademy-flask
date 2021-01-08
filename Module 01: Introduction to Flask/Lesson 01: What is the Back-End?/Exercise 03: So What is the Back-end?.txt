@@ -1,0 +1,4 @@
+Dynamic content refers to catering to the specific user rather than sending the same files to every visitor of a webpage.
+
+The application server refers to using programming logic to deliver dynamic content to a client, manage security,
+process payments, and other tasks.
