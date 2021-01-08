@@ -1,0 +1,9 @@
+A web server is a process running on a computer that listens for incoming requests for information over the internet and sends back responses.
+Each time a user navigates to a website on their browser, the browser makes a request to the web server of that website.
+Every website has at least one web server.
+
+The specific format of a request (and the resulting response) is called the protocol.
+
+For the simplest websites, a client makes a single request.
+The web server receives that request and sends the client a response containing everything needed to view the website.
+This is called a static website.
