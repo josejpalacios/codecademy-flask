@@ -1,0 +1,9 @@
+Frameworks are collections of tools that shape the organization of your back-end and provide efficient ways of accomplishing otherwise difficult tasks.
+
+Stack refers to the collection of technologies used to create the front-end and back-end of a web application.
+
+A full-stack developer works in both front-end and back-end.
+
+Stack Examples
+- MEAN: technology stack for building web applications that uses MongoDB, Express.js, AngularJS, and Node.js
+- LAMP: sometimes considered the archetypal stack that uses Linux, Apache, MySQL, and PHP.
