@@ -1,0 +1,6 @@
+Databases are collections of information.
+
+Relational databases: store information in tables with columns and rows.
+Non-relational databases: might use other systems such as key-value pairs or a document storage model.
+
+SQL, Structured Query Language, is a programming language for accessing and changing data stored in relational databases.
