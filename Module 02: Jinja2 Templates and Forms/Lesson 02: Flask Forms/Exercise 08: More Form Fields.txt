@@ -1,0 +1,19 @@
+TextAreaField: A text field that supports multi-line input.
+
+#### Form class declaration
+my_text_area = TextAreaField("Text Area Label")
+
+BooleanField: A checkbox element is created using the BooleanField object.
+
+#### Form class declaration
+my_checkbox = BooleanField("Checkbox Label")
+
+RadioField: A radio button group is created using the RadioField object. 
+
+#### Form class declaration
+my_radio_group = RadioField("Radio Group Label", choices=[("id1", "One"), ("id2","Two"), ("id3","Three")])
+
+Since there are multiple buttons in this group, the instance declaration takes an argument for the
+group label and a keyword argument choices which takes a list of tuples.
+
+Each tuple represents a button in the group and contains the button identifier string and the button label string.
