@@ -1,0 +1,24 @@
+Creating a form in the template is done by accessing attributes of the form passed to the template.
+
+class MyForm(FlaskForm):
+    my_textfield = StringField("TextLabel")
+    my_submit = SubmitField("SubmitName")
+
+Moving to a template, creating a form we simply use the form class attributes as expressions.
+
+<form action="/" method="post">
+    {{ template_form.hidden_tag() }}
+    {{ template_form.my_textfield.label }}
+    {{ template_form.my_textfield() }}
+    {{ template_form.my_submit() }}
+</form>
+
+The first line {{ template_form.hidden_tag() }} is the other end of the CSRF protection.
+While not visible in the form, this field handles the necessary tasks to protect from CSRF.
+
+The next two lines are for the text box.
+The first accesses the label of the field, which we specified as an argument when we created the field.
+The second my_textfield line is the input field itself.
+
+The last line of the form is the submit button.
+Just like the HTML version, this will initiate sending the form data back to the server.
