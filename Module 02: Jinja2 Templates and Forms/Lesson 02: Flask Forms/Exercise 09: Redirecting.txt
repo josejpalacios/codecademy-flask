@@ -1,0 +1,15 @@
+redirect(): Move from one route to another.
+
+redirect("url_string")
+
+Using this function inside another route will simply send us to the URL we specify.
+
+Can utilize url_for() within redirect().
+This allows to navigate routes by specifying the route function name instead of the URL path.
+
+redirect(url_for("new_route", _external=True, _scheme='https'))
+
+Must add two new keyword arguments to our call of url_for():
+_external=True and _scheme='https' ensure that the URL we redirect to is a secure HTTPS address and not an insecure HTTP address
+
+Regular keyword arguments can be added if necessary.
