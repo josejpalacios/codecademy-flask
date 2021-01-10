@@ -1,0 +1,18 @@
+Creating lists, tables or a group of images are all repetitive tasks that can be solved using for loops.
+
+Using the same statement delimiter block as if statements {% %}, for loops step through a range of numbers, lists and dictionaries.
+
+Uses for for loops
+* Iterate through a list variable:
+{% for element in template_list %}
+
+* Iterate through a string:
+{% for char_in_string in “Hello!” %}
+
+* Iterate through the keys of a dictionary variable:
+{% for key in template_dict %}
+
+* Iterate through keys AND values of a dictionary with items():
+{% for key, value in template_dict.items() %}
+
+Using the filter dictsort in a loop outputs the key/value pairs just like items()
