@@ -1,1 +1,1 @@
-
+Will look into how Flask can help gather data from regular web forms as well as create forms.
