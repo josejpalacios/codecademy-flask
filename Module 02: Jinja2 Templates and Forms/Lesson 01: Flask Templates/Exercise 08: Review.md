@@ -1,4 +1,4 @@
-Created a file structure that works with the Jinja2 template engine
+### Created a file structure that works with the Jinja2 template engine
 Rendered pages in our browser using files called templates
 Shared our application data for use within templates
 Applied filters to our data within our templates
