@@ -1,0 +1,11 @@
+conditionals such as if and if/else statements allows us to control how data is handled in templates.
+
+Using if statements in a template happens inside a statement delimiter block: {% %}.
+
+{% if condition %}
+  <p>This text will output if condition is True</p> 
+{% endif %}
+
+Notice the {% endif %} delimiter is necessary to close the if statement.
+
+The {% else %} and {% elif %} delimiters can be included to create multi-branch if statements.
