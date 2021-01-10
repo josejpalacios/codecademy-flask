@@ -1,0 +1,22 @@
+Validation: Form fields must contain data or a certain format of data in order to move forward with submission.
+
+Enable validation in form class using the validators parameter in the form field definitions.
+
+Validators come from the wtform.validators module.
+
+DataRequired() Example:
+from wtforms.validators import DataRequired
+
+my_textfield = StringField("TextLabel", validators=[DataRequired()])
+
+The validators argument takes a list of validator instances.
+The DataRequired() validator simply requires a field to have something in it before the form is submitted.
+Notifying the user that data is required is handled automatically.
+
+The FlaskForm class also provides a method called validate_on_submit(),
+which we can used in our route to check for a valid form submission.
+
+if my_form.validate_on_submit():
+    # get form data
+
+The validate_on_submit() function returns True when there is a POST request and all the associated form validators are satisfied.   
