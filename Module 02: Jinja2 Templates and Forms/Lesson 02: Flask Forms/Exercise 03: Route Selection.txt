@@ -1,0 +1,9 @@
+Flask addresses the challenge of expanding file structures with url_for().
+The function url_for() takes a route’s function name as an argument and returns the associated URL path.
+
+To pass variables from the template to the app, keyword arguments can be added to url_for().
+They will be sent as arguments attached to the URL.
+
+<a href="{{ url_for('my_page', id=1) }}">One</a>
+
+It can be accessed the same way as if it was added onto the path manually.
