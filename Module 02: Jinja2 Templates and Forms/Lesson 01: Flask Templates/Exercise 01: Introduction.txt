@@ -1,0 +1,4 @@
+template: HTML file that can represent multiple web pages with the same structure and functionality.
+
+Flask uses the Jinja2 template engine to render HTML files that include application variables and control structures.
+The Jinja2 template engine is a powerful tool that supports an organized and growth oriented application.
