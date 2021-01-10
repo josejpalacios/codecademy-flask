@@ -1,0 +1,9 @@
+To access the variables in our templates we need to use the expression delimiter: {{ }}.
+
+{{ template_variable }} 
+
+The delimiter can be used inline with text and alongside HTML elements.
+
+Certain operations can be performed inside expression delimiters {{ }}. 
+
+List and dictionary elements can be accessed individually inside the expression delimiters {{ }}.
