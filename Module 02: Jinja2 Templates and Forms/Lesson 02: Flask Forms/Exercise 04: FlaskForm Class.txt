@@ -1,0 +1,18 @@
+Flask provides an alternative to web forms by creating a form class in the application,
+implementing the fields in the template and handling the data back in the application.
+
+A Flask form class inherits from the class FlaskForm and includes attributes for every field.
+
+Example:
+class MyForm(FlaskForm):
+    my_textfield = StringField("TextLabel")
+    my_submit = SubmitField("SubmitName")
+    
+FlaskForm is a part of FlaskWTF.
+FlaskForm is imported from the flask_wtf module and both form fields import from wtforms.
+
+app.config["SECRET_KEY"] = "my_secret"
+This is a way to protect against CSRF or Cross-Site Request Forgery. 
+CSRF is an attack that used to gain control of a web application.
+
+In order to use this form in our template, we must create an instance of it and pass it to the template using render_template().
