@@ -1,0 +1,5 @@
+render_template(): this function takes a template file name as an argument and returns the content to send to the client.
+
+The render_template() uses the Jinja2 template engine to generate HTML using the template file as blueprint.
+
+All template files should be kept inside the directory called templates.
