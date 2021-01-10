@@ -1,0 +1,6 @@
+Once a form is submitted, the data is sent back to the server through a POST request.
+
+Using our FlaskForm class, data is now accessible through the form instance in the Flask app.
+The data can be directly accessed by using the data attribute associated with each field in the class.
+
+form_data = flask_form.my_textfield.data
