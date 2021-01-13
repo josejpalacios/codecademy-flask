@@ -1,0 +1,14 @@
+SQLAlchemy Object Relational Mapper (ORM) creates database entries
+as instances of Python classes representing the declared models.
+
+Examples:
+Book
+ b1 = Book(id = 123, title = 'Demian', author_name = 'Hermann', author_surname = 'Hesse', month = "February", year = 2020)
+Reader
+r1 = Reader(id = 342, name = 'Ann', surname = 'Adams', email = 'ann.adams@example.com')
+
+In case we want to access a specific attribute or column,
+we do it in the same way we would access attributes of
+Python objects: by using . (dot) notation:
+
+print(r1.name)
