@@ -1,0 +1,7 @@
+Have to specify what the foreign keys are for the model on the ‘many’ side of the relationship.
+
+Set foreign key:
+book_id = db.Column(db.Integer, db.ForeignKey('book.id'))
+
+The book_id field is a foreign key that refers to the primary key id of the Book table.
+Similar to the primary key, a foreign key is just another column in our model with unique entries.
