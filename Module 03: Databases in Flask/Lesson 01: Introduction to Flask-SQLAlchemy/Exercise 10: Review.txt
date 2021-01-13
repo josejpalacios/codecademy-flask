@@ -1,0 +1,9 @@
+Learned how to:
+* import Flask-SQLAlchemy and configure your app to support database connections.
+* create your first model representing a table schema using Flask-SQLAlchemy ORM by declaring classes that extend Model
+* specify attributes of database entities by using Column fields
+* set the primary key Column
+* create a one-to-many relationship by using relationship()
+* specify foreign key columns
+* initialize the database according to the declared models by using create_all()
+* create database entries as instances of the declared Flask-SQLAlchemy classes
