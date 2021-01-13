@@ -1,0 +1,7 @@
+Relational databases: Consists of tables that represent entities and/or relationships amongst entities. 
+Database schema: The way a database is organized in entities, attributes and relationships, without data being present.
+Entities: Represent tables in the schema.
+Attributes: Properties of an entity and are represented as columns in a database table.
+Relationships: One-to-many or one-to-one.
+Primary Key: Uniquely identify entries in the table.
+Foreign Key: References to Primary Keys of other tables.
