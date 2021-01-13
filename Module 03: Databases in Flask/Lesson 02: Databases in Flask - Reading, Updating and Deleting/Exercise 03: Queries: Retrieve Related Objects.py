@@ -12,6 +12,9 @@
 # review = Review.query.get(111)
 # reviewer_111 = review.reviewer
 
+# =============
+# playground.py
+# =============
 from app import db, Book, Reader, Review, Annotation
 
 #Fetching 'many' objects
