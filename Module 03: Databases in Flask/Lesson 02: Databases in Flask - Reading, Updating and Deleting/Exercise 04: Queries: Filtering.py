@@ -15,6 +15,9 @@
 # Example:
 # Review.query.filter(Review.stars <= 3, Review.book_id == 1).all()
 
+# =============
+# playground.py
+# =============
 from app import Book, Reader, Review, Annotation
 
 #select books from the year 2020
