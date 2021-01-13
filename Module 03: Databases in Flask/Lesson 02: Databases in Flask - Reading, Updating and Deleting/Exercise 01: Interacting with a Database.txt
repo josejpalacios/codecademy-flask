@@ -1,0 +1,1 @@
+Throughout the lesson, we will be querying the database; as well as adding and removing entries.
