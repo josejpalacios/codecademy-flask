@@ -1,0 +1,3 @@
+.first_or_404(): If entry is not in database, 404 error is returned with a custom made message.
+
+Can combine database queries with Jinja templetes; get date from database to display on Jinja template.
