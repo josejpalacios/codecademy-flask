@@ -1,0 +1,10 @@
+Creating objects for tables that have foreign keys is not much different from the usual creation of Python objects.
+
+Example:
+Reader Instance
+r1 = Reader(id = 342, name = 'Ann', surname = 'Adams', email = 'ann.adams@example.com')
+Book Instance
+b1 = Book(id = 123, title = 'Demian', author_name = 'Hermann', author_surname = 'Hesse')
+
+Review Instance with Foreign Keys
+rev1 = Review(id = 435, text = 'This book is amazing...', stars = 5, reviewer_id = r1.id, book_id = b1.id)
