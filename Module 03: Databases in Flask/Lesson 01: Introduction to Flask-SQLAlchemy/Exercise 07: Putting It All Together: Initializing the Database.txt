@@ -1,0 +1,7 @@
+Can initialize database by:
+* Using the interactive Python shell.
+* In the command-line terminal, navigate to the application folder and enter Python’s interactive mode
+* Import the database instance db from app.py:
+* Create all database tables according to the declared models:>>> db.create_all()		
+
+db.create_all(): Creates database using database schema with declared models.
