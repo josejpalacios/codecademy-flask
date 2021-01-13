@@ -1,0 +1,12 @@
+In SQLAlchemy we can declare a relationship with a field initialized with the .relationship() method.
+In one-to-many relationships, the relationship field is used on the ‘one’ side of the relationship. 
+
+We declare a one-to-many relationship between Book and Review by creating the following field in the Book model:
+
+reviews = db.relationship('Review', backref='book', lazy='dynamic')
+
+where:
+* the first argument denotes which model is to be on the ‘many’ side of the relationship: Review.
+* backref = 'book' establishes a book attribute in the related class (in our case, class Review)
+            which will serve to refer back to the related Book object. 
+* lazy = dynamic makes related objects load as SQLAlchemy’s query objects.
