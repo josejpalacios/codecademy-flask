@@ -1,0 +1,6 @@
+Accounts: end result of gathering data necessary to create a user for a website
+
+Will be using the following Python Packages:
+- Flask’s Flask-Login
+- SQLAlchemy
+- WTForms
