@@ -1,6 +1,25 @@
 flash(): Records a message at the end of a request and access it on the next request only.
 
+# new try block
+try:
+  dinner_party.attendees += f", {username}"
+  db.session.commit()
+  # find the host of dinner_party
+  host = User.query.filter_by(id=int(dinner_party.party_host_id)).first()
+  flash(f"You successfully RSVP'd to {host.username}'s dinner party on {dinner_party.date}!")
+# new except block
+except:
+  flash("Please enter a valid Party ID to RSVP!")
+
 Can access flashed messages in a template file and display them on the page.
+
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    {% for message in messages %}
+      {{ message }}
+    {% endfor %}
+  {% endif %}
+{% endwith %}
 
 Look for areas where things can go wrong.
 Best practice to us flash() to provide feedback to the user on what exactly happened and how they can proceed.
