@@ -1,0 +1,3 @@
+Authentication is the process of verifying that an individual has permission to perform an action.
+
+Without authentication, there would be no way of knowing or enforcing access control on a browser for applications.
