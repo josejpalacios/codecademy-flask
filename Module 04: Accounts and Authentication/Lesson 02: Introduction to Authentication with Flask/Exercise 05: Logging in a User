@@ -1,0 +1,10 @@
+# Best practices for user authentication using Flask is to make it hard for someone to use a stolen credential.
+
+# Flask’s Werkzeug library includes:
+# - generate_password_hash(): Used to generate a hash.
+# - check_password_hash(): Compare login input with the value returned from the check_password_hash().
+
+# Create User class that inherites from UserMixin
+# Mixin: Prepackaged code of common code needs
+
+# UserMixin allows the use of common user account functions without having to write it all from scratch.
