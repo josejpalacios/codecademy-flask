@@ -1,0 +1,6 @@
+flash(): Records a message at the end of a request and access it on the next request only.
+
+Can access flashed messages in a template file and display them on the page.
+
+Look for areas where things can go wrong.
+Best practice to us flash() to provide feedback to the user on what exactly happened and how they can proceed.
