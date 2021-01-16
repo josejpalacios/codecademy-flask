@@ -1,0 +1,28 @@
+# The primary tool to achieve purposes of authenticating in Flask is Flask-Login.
+
+# Can manage user logins with the LoginManager object from within Flask-Login, as shown below:
+
+# from flask_login import LoginManager
+# login_manager = LoginManager()
+
+# LoginManager is imported from the flask_login package
+# a new LoginManager object named login_manager is created
+
+# Initalize manager with application
+# login_manager.init_app(app)
+
+from flask import Flask
+# import LoginManager here:
+from flask_login import LoginManager
+
+app = Flask(__name__)
+
+# create login_manager here:
+app_login_manager = LoginManager()
+
+# initialize login_manager here:
+app_login_manager.init_app(app)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, Authentication World!'
